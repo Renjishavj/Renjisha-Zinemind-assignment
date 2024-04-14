@@ -4,24 +4,252 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
        <!-- navbar -->
        <div class="navbar">
-            <div class="navbar-sub">
-                 <div><img src="./Images//thunderlogo.png" alt=""></div>
-                 <div><p>oneteams</p></div>
-                 <div class="fa fa-plus" ></div>
-                 <div>|</div>
-                 <div class="fa fa-gear"></div>
-                 <div>|</div>
-                 <div class="fa fa-file">  </div>
-                 <div>|</div>
+            <div class="navbar-sub-one">
+                 <div><img src="./Images/thunderlogo.png" alt="" class="logo"></div>
+                 <div class="sel-div">
+                   <div> <select name="" id="" class="sel-box" >
+                    <option value="On teams">On Teams</option>
+                    
+                    </select></div>
+                    <div><i class="fa fa-angle-down downarrow"></i></div>
+                </div>
+                 <div class="fa fa-plus nav-icons" ></div>
+                 <div class=" pipe-line">|</div>
+                 <div class="fa fa-gear nav-icons"></div>
+                 <div class=" pipe-line">|</div>
+                 <div class="fa fa-file nav-icons-file">  </div>
+                 <div class="pipe-line">|</div>
             </div>
-            <div class="navbar-sub">
+            <div class="navbar-sub-two">
+                <div  ><i class="fa fa-search"></i></div>
+                <div class="search-div"><input type="text" name="" id=""  class="search-inp" placeholder="search"></div>
+            </div>
+       </div>
 
+       <!-- main section -->
+       <div class="main-container">
+            <div class="main-subone">
+                <div class="main-sub">
+                    <div class="left-sub-one"></div>
+                    <div class="left-sub-two"></div>
+                </div>
+                <div class="main-sub-three">
+
+                </div>
+                <div class="main-sub">
+                    <div class="left-sub-three">
+                        <h4 class="sidebar-head">Welcome Nikki Wolf!</h4>
+                        <img src="./Images/chat.png" alt="" class="chatlogo">
+                        <button class="left-btns"><span><i class="fa fa-user"></i></span>Quick connect</button>
+                        <button class="left-btns"><span><i class="fa fa-braille"></i></span>Quick connect</button>
+                        <button class="left-btns"><span><i class="fa fa-check task"></i></span>Create task</button>
+                        <button class="left-btns"><span><i class="fa fa-envelope"></i></span>Compose email</button>
+                    </div>
+                    <div class="left-sub-four"></div>
+                </div>
+            </div>
+            <div class="main-subtwo">
+                <div class="main-subtwo-header">
+                    <div><i class="fa fa-home"></i></div>
+                    <div class="pipe">|</div>
+                    <div class="header-sub">
+                        <div><i class="fa fa-user"></i></div>
+                        <div>Customer Profile</div>
+                    </div>
+                    <div  class="pipe">|</div>
+                    <div class="header-sub">
+                        <div><i class="fa fa-briefcase"></i></div>
+                        <div>Case</div>
+                    </div>
+                    <div  class="pipe">|</div>
+                    <div class="header-sub">
+                        <div><i class="fa fa-users"></i></div>
+                        <div>Teams</div>
+                    </div>
+                    <div  class="pipe">|</div>
+                </div>
+                <div class="individuals">
+                    <div class="vertical-icons">
+                        <div class="vertical-icon-div"><i class="fa fa-bars"></i></div>
+                        <div class="vertical-icon-div"><i class="fa fa-search"></i></div>
+                        <div class="vertical-icon-div"><i class="fa fa-user"></i></div>
+                        <div class="vertical-icon-div"><i class="fa fa-gear"></i></div>
+                    </div>
+                    <div class="each-sections">
+                        <div class="section-head">
+                            <div><h2 class="search">Search</h2></div>
+                            <div class="section-head-btns">
+                                <div><button class="msg-btn"> <span><i class="fa fa-comment"></i></span>Chat</button></div>
+                                <div><button class="call-btn"><span><i class="fa fa-phone"></i></span>Call</button></div>
+                                <div class="pipe">|</div>
+                                <div><i class="fa fa-heart wishlist"></i></div>
+                                <div><i class="fa fa-rotate-right"></i></div>
+                            </div>
+                        </div>
+                        <p class="user-strength">Found 7,876 Users</p>
+                        <div class="search-userdiv">
+                            <div class="search-user">
+                                <div ><i class="fa fa-search searchingg"></i></div>
+                                <div class="search-div"><input type="text" name="" id=""  class="input-search" placeholder="search"></div>
+                            </div>
+                            <div class="count-slider">
+                                <div><i class="fa fa-caret-left side-arrow"></i></div>
+                                <div><button class="count-btn">1</button></div>
+                                <div><button class="count-btn">2</button></div>
+                                <div><button class="count-btn">3</button></div>
+                                <div><button class="count-btn">4</button></div>
+                                <div><button class="count-btn">5</button></div>
+                                <div><i class="fa fa-caret-right side-arrow"></i></div>
+                                <div class="pipe">|</div>
+                                <div><i class="fa fa-gear settings"></i></div>
+                            </div>
+                        </div>
+                        <div class="user-table">
+                            <table class="table-contents">
+                                <tr>
+                                    <th>
+                                        <label class="container">
+                                            <input type="checkbox" >
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </th>
+                                    <th>Name <span><i class="fa fa-caret-down arrowdown"></i></span><span class="pipe">|</span></th>
+                                    <th>Status <span><i class="fa fa-caret-down arrowdown"></i></span><span  class="pipe">|</span></th>
+                                    <th>Phone Number <span><i class="fa fa-caret-down arrowdown"></i></span  class="pipe"><span  class="pipe">|</span></th>
+                                    <th>Email Id <span><i class="fa fa-caret-down arrowdown"></i></span><span  class="pipe">|</span></th>
+                                    <th>Favourite <span><i class="fa fa-caret-down arrowdown"></i></span></th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </td>
+                                    <td>Renjisha</td>
+                                    <td><span class="available"><i class="fa fa-check"></i></span>Available</td>
+                                    <td>9876543210</td>
+                                    <td>renjisha@gmail.com</td>
+                                    <td><i class="fa fa-heart fav"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="container">
+                                            <input type="checkbox" >
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </td>
+                                    <td>Renjisha</td>
+                                    <td><span class="disturb"><i class="fa fa-minus"></i></span>Do not Disturb</td>
+                                    <td>9876543210</td>
+                                    <td>renjisha@gmail.com</td>
+                                    <td><i class="fa fa-heart fav"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="container">
+                                            <input type="checkbox" >
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </td>
+                                    <td>Renjisha</td>
+                                    <td><span class="right-back"><i class="fa fa-caret-right"></i></span>Be right back</td>
+                                    <td>9876543210</td>
+                                    <td>renjisha@gmail.com</td>
+                                    <td><i class="fa fa-heart fav"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="container">
+                                            <input type="checkbox" >
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </td>
+                                    <td>Renjisha</td>
+                                    <td><span class="available"><i class="fa fa-check"></i></span>Available</td>
+                                    <td>9876543210</td>
+                                    <td>renjisha@gmail.com</td>
+                                    <td><i class="fa fa-heart favv"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="container">
+                                            <input type="checkbox" >
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </td>
+                                    <td>Renjisha</td>
+                                    <td><span class="busy"></span>Buzy</td>
+                                    <td>9876543210</td>
+                                    <td>renjisha@gmail.com</td>
+                                    <td><i class="fa fa-heart fav"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="container">
+                                            <input type="checkbox" >
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </td>
+                                    <td>Renjisha</td>
+                                    <td><span class="right-back"><i class="fa fa-caret-right"></i></span>Appear Away</td>
+                                    <td>9876543210</td>
+                                    <td>renjisha@gmail.com</td>
+                                    <td><i class="fa fa-heart favv"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </td>
+                                    <td>Renjisha</td>
+                                    <td><span class="appear-away"><i class="fa fa-minus"></i></span>Apper offline</td>
+                                    <td>9876543210</td>
+                                    <td>renjisha@gmail.com</td>
+                                    <td><i class="fa fa-heart favv"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="container">
+                                            <input type="checkbox" >
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </td>
+                                    <td>Renjisha</td>
+                                    <td><span class="available"><i class="fa fa-check"></i></span>Available</td>
+                                    <td>9876543210</td>
+                                    <td>renjisha@gmail.com</td>
+                                    <td><i class="fa fa-heart favv"></i></td>
+                                </tr>
+                                <tr class="rows">
+                                    <td>
+                                        <label class="container">
+                                            <input type="checkbox" >
+                                            <span class="checkmark"></span>
+                                          </label>
+                                    </td>
+                                    <td>Renjisha</td>
+                                    <td><span class="available"><i class="fa fa-check"></i></span>Available</td>
+                                    <td>9876543210</td>
+                                    <td>renjisha@gmail.com</td>
+                                    <td><i class="fa fa-heart favv"></i></td>
+                                </tr>
+                                
+
+                            </table>
+                            <div><button class="viewall">View All</button></div>
+                        </div>
+                    </div>
+                </div>
             </div>
        </div>
 </body>
