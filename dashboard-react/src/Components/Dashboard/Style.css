@@ -402,7 +402,22 @@ body{
     
    
 }
-
+.each-sections{
+    overflow-y: scroll;
+    max-height: 710px;
+}
+.each-sections::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .each-sections {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+.highlighted-row {
+    border-bottom: 2px solid rgb(28, 92, 144); 
+  }
 .arrowdown{
     padding-left: 60px;
     padding-right: 25px;
@@ -510,32 +525,35 @@ body{
   }
 
   .available{
+    display: inline-block;
     background-color: green;
     color: white;
     border-radius: 50%;
-    
-    margin-right: 5px;
-    padding: 0px;
+    aspect-ratio: 1;
+    height: 18px;
+    margin-right: 8px;
     
   }
 
   .disturb{
+    display: inline-block;
     background-color: red;
     color: white;
     border-radius: 50%;
     font-size: 10px;
-    padding: 3px;
-    margin-right: 5px;
+    height: 18px;
+    aspect-ratio: 1;
+    margin-right: 8px;
   }
   .right-back{
+    display: inline-block;
     background-color: yellow;
     color: white;
     border-radius: 50%;
     font-size: 15px;
-    padding: 0px;
-    padding-left: 3px;
-    margin-right: 3px;
-    padding-right: 3px;
+    height: 18px;
+    aspect-ratio: 1;
+    margin-right: 8px;
   }
   .toggle-fav{
     border: none;
@@ -544,33 +562,43 @@ body{
     font-size: 20px;
   }
   .busy{
+    display: inline-block;
     background-color: red;
     color: white;
     border-radius: 50%;
     font-size: 10px;
-    padding: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-right: 5px;
+    aspect-ratio: 1;
+    height: 18px;
+    margin-right: 8px;
+    
   }
   .appear-away{
+    display: inline-block;
     background-color: grey;
     color: white;
     border-radius: 50%;
     font-size: 10px;
-    padding: 3px;
-    margin-right: 5px;
+    height: 18px;
+    aspect-ratio: 1;
+    margin-right: 8px;
   }
   .appear-offline{
+    display: inline-block;
     background-color: orange;
     color: white;
     border-radius: 50%;
     font-size: 10px;
-    padding: 3px;
-    margin-right: 5px;
+    height: 18px;
+   margin-right: 8px;
+    aspect-ratio: 1;
   }
 
   .link{
     text-decoration: none;
     color: rgb(6, 53, 91);
+  }
+
+  table td svg{
+    height: 100%;
+    width:100%;
   }

@@ -5,151 +5,151 @@
         "id":"1",
        "name":"Renjisha",
        "Status":"Busy",
-       "phone":"9895604739",
+       "phone":"9895607777",
        "email":"renjishavj@gmail.com",
        "favourite":false
    },
    {
     "id":"2",
-       "name":"Renjisha",
+       "name":"Ranjeev",
        "Status":"Available",
        "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
-       "favourite":false
+       "email":"ranjeev@gmail.com",
+       "favourite":true
    },
    {
     "id":"3",
-       "name":"Renjisha",
+       "name":"Haritha",
        "Status":"Offline",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "phone":"9895604799",
+       "email":"hari@gmail.com",
        "favourite":false
    },
    
    {
     "id":"4",
-       "name":"Renjisha",
+       "name":"Adhil",
        "Status":"Do not disturb",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "phone":"9895604788",
+       "email":"adhi@gmail.com",
        "favourite":true
    },
    {
     "id":"5",
-       "name":"Renjisha",
+       "name":"Geevarghese",
        "Status":"Appear away",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
-       "favourite":false
+       "phone":"9895604766",
+       "email":"gee@gmail.com",
+       "favourite":true
    },
    {
     "id":"6",
-       "name":"Renju",
+       "name":"syam",
        "Status":"Busy",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "phone":"9895604766",
+       "email":"syam@gmail.com",
        "favourite":false
    },
    {
     "id":"7",
        "name":"Renju",
-       "Status":"Busy",
+       "Status":"Offline",
        "phone":"9895604739",
        "email":"renjishavj@gmail.com",
        "favourite":false
    },
    {
     "id":"8",
-       "name":"Renjisha",
-       "Status":"Busy",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "name":"Jishna",
+       "Status":"Available",
+       "phone":"9895604939",
+       "email":"jish@gmail.com",
        "favourite":false
    },
    {
     "id":"9",
-       "name":"Renjisha",
-       "Status":"Busy",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "name":"Nabeel",
+       "Status":"Do not disturb",
+       "phone":"98956047355",
+       "email":"nabeel@gmail.com",
        "favourite":false
    },
    {
     "id":"10",
-       "name":"Renjisha",
+       "name":"Risha",
        "Status":"Busy",
        "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "email":"risha@gmail.com",
        "favourite":false
    }, {
     "id":"11",
-       "name":"Renjisha",
-       "Status":"Busy",
+       "name":"Frido",
+       "Status":"Appear away",
        "phone":"9895604739",
-       "email":"renjishavj@gmailcom",
+       "email":"frido@gmailcom",
        "favourite":false
    }, {
     "id":"12",
-       "name":"Renjisha",
-       "Status":"Busy",
+       "name":"Vimal",
+       "Status":"Offline",
        "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "email":"vim@gmail.com",
        "favourite":false
    }, {
     "id":"13",
-       "name":"Renjisha",
-       "Status":"Busy",
+       "name":"sreejith",
+       "Status":"Available",
        "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "email":"sreejith@gmail.com",
        "favourite":false
    }, {
     "id":"14",
-       "name":"Renjisha",
+       "name":"Megha",
        "Status":"Busy",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "phone":"9895604539",
+       "email":"megha@gmail.com",
        "favourite":false
    }, {
     "id":"15",
-       "name":"Renjisha",
-       "Status":"Busy",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "name":"Greeshma",
+       "Status":"Do not disturb",
+       "phone":"9885604739",
+       "email":"gree@gmail.com",
        "favourite":false
    }, {
     "id":"16",
-       "name":"Renjisha",
+       "name":"Manu",
        "Status":"Busy",
        "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
-       "favourite":false
+       "email":"manu@gmail.com",
+       "favourite":true
    }, {
-    "id":"17",
-       "name":"Renjisha",
-       "Status":"Busy",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+    "id":"19",
+       "name":"Anandhu",
+       "Status":"Offline",
+       "phone":"9895608739",
+       "email":"anandhu@gmail.com",
        "favourite":false
    }, {
     "id":"18",
-       "name":"Renjisha",
-       "Status":"Busy",
+       "name":"Vignesh",
+       "Status":"Available",
        "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "email":"vignu@gmail.com",
        "favourite":false
    }, {
     "id":"19",
-       "name":"Renjisha",
-       "Status":"Busy",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "name":"Abhi",
+       "Status":"Appear away",
+       "phone":"9895604939",
+       "email":"abhi@gmail.com",
        "favourite":false
    },{
     "id":"20",
-       "name":"Renjisha",
+       "name":"Hari",
        "Status":"Will be right back",
-       "phone":"9895604739",
-       "email":"renjishavj@gmail.com",
+       "phone":"9898604739",
+       "email":"hari@gmail.com",
        "favourite":false
    }
 ]
