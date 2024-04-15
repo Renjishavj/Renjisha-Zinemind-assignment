@@ -22,18 +22,15 @@ function Search() {
   // console.log(user.user)
   const [viewall, setViewall] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [data,fetchData]=useState(user.user)
+  const [data, fetchData] = useState(user.user);
   const [isFavourite, setIsFavourite] = useState(false);
-  const [isChecked, setIsChecked] = useState(false); 
 
   const recordsPerPage = 5;
   const lastIndex = currentPage * recordsPerPage;
   const firstIndex = lastIndex - recordsPerPage;
-  const records = viewall ? data: data.slice(firstIndex, lastIndex);
+  const records = viewall ? data : data.slice(firstIndex, lastIndex);
   const npage = Math.ceil(user.user.length / recordsPerPage);
   const numbers = [...Array(npage + 1).keys()].slice(1);
- 
- 
 
   const prePage = () => {
     if (currentPage !== 1) {
@@ -51,34 +48,25 @@ function Search() {
   const onFavourite = (e) => {
     const userToUpdate = user.user.find((u) => u.id == e);
     userToUpdate.favourite = !userToUpdate.favourite;
-    setIsFavourite(userToUpdate);
+    setIsFavourite({...userToUpdate});
   };
 
-  
-  const filter = (e)=>{
+  const filter = (e) => {
     let searchUser;
-    if(e.target.value !== "")
-    {
-        searchUser=user.user.filter(f=>f.name.toLowerCase().includes(e.target.value.trim().toLowerCase()))
+    if (e.target.value !== "") {
+      searchUser = user.user.filter((f) =>
+        f.name.toLowerCase().includes(e.target.value.trim().toLowerCase())
+      );
+    } else {
+      searchUser = user.user;
     }
-    else{
-        searchUser=user.user
-    }
-   fetchData(searchUser)
-   console.log(searchUser);
-  }
-
-  const handleCheckboxChange = (id, checked) => {
-    setIsChecked((prevState) => ({
-      ...prevState,
-      [id]: checked,
-    }));
+    fetchData(searchUser);
+    console.log(searchUser);
   };
- 
+
   return (
     <div className="each-sections">
       <div className="section-head">
-     
         <div>
           <h2 className="search">Search</h2>
         </div>
@@ -161,10 +149,7 @@ function Search() {
             <tr>
               <th>
                 <label className="container">
-                  <input type="checkbox" 
-                  name="check"
-                  
-                  />
+                  <input type="checkbox" name="check" />
                   <span className="checkmark"></span>
                 </label>
               </th>
@@ -204,15 +189,10 @@ function Search() {
               </th>
             </tr>
             {records.map((user, index) => (
-              <tr key={index}
-              className={isChecked[user.id] ? "highlighted-row" : ""}
-              >
+              <tr key={index}>
                 <td>
                   <label className="container">
-                    <input type="checkbox"
-                    onChange={(e) =>
-                        handleCheckboxChange(user.id, e.target.checked)
-                      } />
+                    <input type="checkbox" />
                     <span className="checkmark"></span>
                   </label>
                 </td>
@@ -249,7 +229,6 @@ function Search() {
                   <button
                     className="toggle-fav"
                     onClick={() => onFavourite(user.id)}
-                    
                   >
                     <FaHeart className={user.favourite ? "fav" : "favv"} />
                   </button>
@@ -259,10 +238,21 @@ function Search() {
           </tbody>
         </table>
         <div>
-         
-            {viewall ? <button  className="viewall" onClick={() => setViewall((prev) => !prev)}>View Less</button> :<button className="viewall"
-            onClick={() => setViewall((prev) => !prev)}>View All</button>}
-          
+          {viewall ? (
+            <button
+              className="viewall"
+              onClick={() => setViewall((prev) => !prev)}
+            >
+              View Less
+            </button>
+          ) : (
+            <button
+              className="viewall"
+              onClick={() => setViewall((prev) => !prev)}
+            >
+              View All
+            </button>
+          )}
         </div>
       </div>
     </div>
