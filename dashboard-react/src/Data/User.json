@@ -1,0 +1,156 @@
+
+{
+    "user" :[
+   {
+        "id":"1",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   },
+   {
+    "id":"2",
+       "name":"Renjisha",
+       "Status":"Available",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   },
+   {
+    "id":"3",
+       "name":"Renjisha",
+       "Status":"Offline",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   },
+   
+   {
+    "id":"4",
+       "name":"Renjisha",
+       "Status":"Do not disturb",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":true
+   },
+   {
+    "id":"5",
+       "name":"Renjisha",
+       "Status":"Appear away",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   },
+   {
+    "id":"6",
+       "name":"Renju",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   },
+   {
+    "id":"7",
+       "name":"Renju",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   },
+   {
+    "id":"8",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   },
+   {
+    "id":"9",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   },
+   {
+    "id":"10",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   }, {
+    "id":"11",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmailcom",
+       "favourite":false
+   }, {
+    "id":"12",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   }, {
+    "id":"13",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   }, {
+    "id":"14",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   }, {
+    "id":"15",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   }, {
+    "id":"16",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   }, {
+    "id":"17",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   }, {
+    "id":"18",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   }, {
+    "id":"19",
+       "name":"Renjisha",
+       "Status":"Busy",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   },{
+    "id":"20",
+       "name":"Renjisha",
+       "Status":"Will be right back",
+       "phone":"9895604739",
+       "email":"renjishavj@gmail.com",
+       "favourite":false
+   }
+]
+}

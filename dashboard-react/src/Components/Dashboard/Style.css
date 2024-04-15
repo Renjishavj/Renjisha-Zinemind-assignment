@@ -58,12 +58,17 @@ body{
 }
 .nav-icons{
     color: white;
-    font-size: 35px;
-    margin-top: 8px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.search-iconn{
+    color: rgb(97, 125, 148);
+    margin-top: 5px;
+    padding-right: 5px;
 }
 .nav-icons-file{
     color: white;
-    font-size: 35px;
+    font-size: 20px;
     margin-top: 5px;
 }
 .pipe{
@@ -76,6 +81,7 @@ body{
     margin-top: -8px;
     color: rgb(101, 101, 101);
     font-size: 30px;
+    font-weight: 200;
 }
 .sel-box{
     background-color: rgb(6, 53, 91);
@@ -88,7 +94,7 @@ body{
     padding-top: 0px;
     padding-bottom: 5px;
     padding-left: 10px;
-    margin-top: 5px;
+    margin-top: 3px;
     border-radius: 20px;
     appearance: none; 
 }
@@ -103,9 +109,11 @@ body{
     border-radius: 20px;
     padding-right: 10px;
    margin-bottom: 15px;
+
+  
 }
 .downarrow{
-    margin-top: 5px;
+    margin-top: 6px;
    font-weight: bold;
 }
 
@@ -196,17 +204,19 @@ body{
    font-size: small;
    font-weight:bolder;
 }
-.fa-user{
+.user{
     padding-right: 10px;
+ 
 }
-.fa-braille{
+
+.dotsquare{
     padding-right: 10px;
 }
 .task{
     padding-right: 10px;
    margin-left: -20px;
 }
-.fa-envelope{
+.email-icon{
     padding-right: 10px;
 }
 
@@ -235,7 +245,7 @@ body{
 }
 .vertical-icon-div{
     border-radius: 50%;
-    padding: 0px;
+    padding: 10px;
     padding-left: 12px;
 
 }
@@ -248,7 +258,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-between; */
-    gap: 550px;
+    gap: 500px;
     padding-left: 30px;
 }
 .section-head-btns{
@@ -261,24 +271,27 @@ body{
     font-size: 30px;
     margin-top: 20px;
 }
-.fa-comment,.fa-phone{
+.comment,.phone{
     padding-right: 10px;
-    font-size: medium;
+    font-size: 20px;
+   
 }
+
 .msg-btn{
     border-radius: 10px;
    box-shadow: 0 0 0 3px rgb(97, 125, 148);
    border: none;
    outline: none;
    padding-top: 6px;
-   padding-bottom: 6px;
+   padding-bottom: 3px;
    color: rgb(28, 92, 144);
    font-size: small;
    font-weight:bolder;
    background-color: white;
    padding-left: 20px;
    padding-right: 20px;
-
+   display: flex;
+   flex-wrap: wrap;
 }
 .call-btn{
     border-radius: 10px;
@@ -286,15 +299,17 @@ body{
    border: none;
    outline: none;
    padding-top: 8px;
-   padding-bottom: 8px;
+   padding-bottom: 4px;
    color: white;
    font-size: small;
    font-weight:bolder;
    background-color: rgb(28, 92, 144);
-   padding-left: 20px;
-   padding-right: 20px;
+   padding-left: 22px;
+   padding-right: 22px;
+   display: flex;
+   flex-wrap: wrap;
 }
-.wishlist,.fa-rotate-right{
+.wishlist,.refresh{
     color: rgb(28, 92, 144);
     font-size: medium;
     border: 2px solid rgb(28, 92, 144);
@@ -314,8 +329,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-left: 30px;
-   padding-top: 5px;
-   padding-bottom: 3px;
+  padding-top: 3px;
     border:  3px solid rgb(149, 151, 152);
     border-radius: 8px;
     margin-top: 10px;
@@ -326,6 +340,11 @@ body{
 .searchingg{
     padding-left: 10px;
     padding-right: 5px;
+    color: rgb(149, 151, 152);
+    margin-top: 5px;
+}
+.settings{
+    color: rgb(80, 81, 81);
 }
 .count-slider{
     display: flex;
@@ -336,6 +355,25 @@ body{
 }
 .side-arrow{
     color: rgb(149, 151, 152);
+    
+}
+.side-btn{
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.page-link{
+    text-decoration: none;
+    color: rgb(149, 151, 152);
+}
+.page-link:hover{
+    color:  black;
+}
+.page-item{
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: -15px;
 }
 .count-btn{
     border: none;
@@ -350,7 +388,7 @@ body{
 
 /* table section */
 .table-contents{
-    padding-left: 20px;
+    padding-left: 0px;
     margin-top: 20px;
     padding-bottom: 30px;
     margin-right: 20px;
@@ -366,7 +404,7 @@ body{
 }
 
 .arrowdown{
-    padding-left: 70px;
+    padding-left: 60px;
     padding-right: 25px;
 }
 .fav{
@@ -384,7 +422,7 @@ body{
     background-color: white;
 }
 .user-table{
-    padding-bottom: 15px;
+    padding-bottom: 150px;
 }
 .round {
     width: 18px;
@@ -475,9 +513,10 @@ body{
     background-color: green;
     color: white;
     border-radius: 50%;
-    font-size: 10px;
-    padding: 3px;
+    
     margin-right: 5px;
+    padding: 0px;
+    
   }
 
   .disturb{
@@ -494,9 +533,15 @@ body{
     border-radius: 50%;
     font-size: 15px;
     padding: 0px;
-    padding-left: 7px;
-    margin-right: 5px;
-    padding-right: 5px;
+    padding-left: 3px;
+    margin-right: 3px;
+    padding-right: 3px;
+  }
+  .toggle-fav{
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
   }
   .busy{
     background-color: red;
@@ -509,10 +554,23 @@ body{
     margin-right: 5px;
   }
   .appear-away{
-    background-color: gray;
+    background-color: grey;
     color: white;
     border-radius: 50%;
     font-size: 10px;
     padding: 3px;
     margin-right: 5px;
+  }
+  .appear-offline{
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 3px;
+    margin-right: 5px;
+  }
+
+  .link{
+    text-decoration: none;
+    color: rgb(6, 53, 91);
   }
